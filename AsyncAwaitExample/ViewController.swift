@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 뷰에 추가
         self.view.addSubview(button)
         self.view.addSubview(image)
         // 위치 설정
