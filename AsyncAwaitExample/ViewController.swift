@@ -47,6 +47,7 @@ class ViewController: UIViewController {
         ])
     }
     
+    // 버튼 탭 액션
     @objc func didTap() {
         guard let url = URL(string: "https://reqres.in/api/users?page=1") else { return }
         Task {
