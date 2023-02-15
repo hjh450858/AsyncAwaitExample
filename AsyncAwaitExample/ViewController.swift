@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             self.button.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 100),
             self.button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
         ])
-        // 이미지 뷰 위치 설정??
+        // 이미지 뷰 위치 설정?
         NSLayoutConstraint.activate([
             self.image.widthAnchor.constraint(equalToConstant: 100),
             self.image.heightAnchor.constraint(equalToConstant: 100),
