@@ -26,7 +26,8 @@ class ViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
-
+    
+    // viewDidLoad()
     override func viewDidLoad() {
         super.viewDidLoad()
         
