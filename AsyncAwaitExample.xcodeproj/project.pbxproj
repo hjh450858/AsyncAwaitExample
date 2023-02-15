@@ -17,6 +17,7 @@
 		D2C065D4299CC3B700B6A69F /* AsyncAwaitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C065D3299CC3B700B6A69F /* AsyncAwaitExampleTests.swift */; };
 		D2C065DE299CC3B700B6A69F /* AsyncAwaitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C065DD299CC3B700B6A69F /* AsyncAwaitExampleUITests.swift */; };
 		D2C065E0299CC3B700B6A69F /* AsyncAwaitExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C065DF299CC3B700B6A69F /* AsyncAwaitExampleUITestsLaunchTests.swift */; };
+		D2C065ED299CCC5500B6A69F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C065EC299CCC5500B6A69F /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D2C065D9299CC3B700B6A69F /* AsyncAwaitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C065DD299CC3B700B6A69F /* AsyncAwaitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitExampleUITests.swift; sourceTree = "<group>"; };
 		D2C065DF299CC3B700B6A69F /* AsyncAwaitExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2C065EC299CCC5500B6A69F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D2C065B9299CC3B500B6A69F /* AppDelegate.swift */,
 				D2C065BB299CC3B500B6A69F /* SceneDelegate.swift */,
 				D2C065BD299CC3B500B6A69F /* ViewController.swift */,
+				D2C065EC299CCC5500B6A69F /* DataModel.swift */,
 				D2C065BF299CC3B500B6A69F /* Main.storyboard */,
 				D2C065C5299CC3B700B6A69F /* Assets.xcassets */,
 				D2C065C7299CC3B700B6A69F /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C065ED299CCC5500B6A69F /* DataModel.swift in Sources */,
 				D2C065BE299CC3B500B6A69F /* ViewController.swift in Sources */,
 				D2C065BA299CC3B500B6A69F /* AppDelegate.swift in Sources */,
 				D2C065C4299CC3B500B6A69F /* AsyncAwaitExample.xcdatamodeld in Sources */,
